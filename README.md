@@ -35,8 +35,8 @@ I have checked in my configs for references.
 Because its not a real computer until it can run Git.
 So here's a small bit of sadness, a Git install via Chocolatey can't find your home directory correctly. I'm working on it.
 So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
-I recommend installing Git to run in the windows command prompt and use as-is for all line endings.
-One last bit of pain. Go into you environment variables add the bin folder in the git directory to the Path.
+When you install it write over the windows command prompt. Its the last option in the list.
+Also choose checkout as-is and commit as-is.
 
 ##Bash
 Because we need a real shell.
