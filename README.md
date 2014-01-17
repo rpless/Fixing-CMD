@@ -1,7 +1,7 @@
 *Nixifying Windows
 ==================
 Are you a Linux junky who has suddenly found themselves forced into a Windows environment?
-Perhaps your company is making you you use Windows or maybe a less technical friend is having computer troubles.
+Perhaps your company is making you use Windows or maybe a less technical friend is having computer troubles.
 Either way you've found yourself crushed under the heel of Microsoft's oppressive shell, cmd.exe.
 Over the course of this little tutorial we are going to change that.
 Rise up my brothers and sisters, you have nothing to lose but your shitty shells.
