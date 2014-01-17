@@ -33,11 +33,17 @@ I have checked in my configs for references.
 
 ##Version Control
 Because its not a real computer until it can run Git.
-So here's a small bit of sadness, a Git install via Chocolatey can't find your home directory correctly. I'm working on it.
-So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
+Now we can install Git via our package manager:
+```
+cinst Git.Install -notsilent
+```
+So here's a small bit of sadness, the windows version of git won't respect your user's home if you don't add Windows Explorer Integration.
+So you have to use the actually installer. Fortunately, we can still install via chocolatey. 
+Once the Installer comes up you'll need to select several options.
 Make sure you select to Windows Explorer Integration and pick the simple context menu, but don't check any of the sub options.
 When you install it write over the windows command prompt. Its the last option in the list.
 Also choose checkout as-is and commit as-is.
+Now you have a real computer.
 
 ##Bash
 Because we need a real shell.
