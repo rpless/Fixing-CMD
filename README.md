@@ -33,13 +33,10 @@ I have checked in my configs for references.
 
 #Version Control
 Because its not a real computer until it can run Git.
-So let's install Git:
-```
-cinst git
-```
-Now we have git.
-One last bit of pain though. Go into you environment variables and find where Chocolatey added Git\cmd to the Path. 
-Change cmd to bin.
+So here's a small bit of sadness, a Git install via Chocolatey can't find your home directory correctly. I'm working on it.
+So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
+I recommend installing Git to run in the windows command prompt and us as-is for all line endings.
+One last bit of pain. Go into you environment variables add the bin folder in the git directory to the Path.
 
 #Bash
 Because we need a real shell.
