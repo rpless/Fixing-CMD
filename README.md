@@ -41,3 +41,6 @@ Now we have git.
 
 #Bash
 Because we need a real shell.
+So Git for windows ships with Bash. Are you thinking what I'm thinking?
+Go into ConsoleZ's settings (ctrl+s) and set the shell to be bash.
+It can be found under %GIT_HOME%\bin.
