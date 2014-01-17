@@ -38,9 +38,12 @@ So let's install Git:
 cinst git
 ```
 Now we have git.
+One last bit of pain though. Go into you environment variables and find where Chocolatey added Git\cmd to the Path. 
+Change cmd to bin.
 
 #Bash
 Because we need a real shell.
 So Git for windows ships with Bash. Are you thinking what I'm thinking?
 Go into ConsoleZ's settings (ctrl+s) and set the shell to be bash.
 It can be found under %GIT_HOME%\bin.
+Now restart your shell and you'll being running bash.
