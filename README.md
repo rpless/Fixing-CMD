@@ -1,6 +1,6 @@
 *Nixifying Windows
 ==================
-Are you Linux junky who's suddenly found themselves forced into a Windows environment?
+Are you a Linux junky who has suddenly found themselves forced into a Windows environment?
 Perhaps your company is making you you use Windows or maybe a less technical friend is having computer troubles.
 Either way you've found yourself crushed under the heel of Microsoft's oppressive shell, cmd.exe.
 Over the course of this little tutorial we are going to change that.
@@ -35,7 +35,7 @@ I have checked in my configs for references.
 Because its not a real computer until it can run Git.
 So here's a small bit of sadness, a Git install via Chocolatey can't find your home directory correctly. I'm working on it.
 So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
-I recommend installing Git to run in the windows command prompt and us as-is for all line endings.
+I recommend installing Git to run in the windows command prompt and use as-is for all line endings.
 One last bit of pain. Go into you environment variables add the bin folder in the git directory to the Path.
 
 ##Bash
