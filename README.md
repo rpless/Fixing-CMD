@@ -37,10 +37,3 @@ So here's a small bit of sadness, a Git install via Chocolatey can't find your h
 So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
 When you install it write over the windows command prompt. Its the last option in the list.
 Also choose checkout as-is and commit as-is.
-
-##Bash
-Because we need a real shell.
-So Git for windows ships with Bash. Are you thinking what I'm thinking?
-Go into ConsoleZ's settings (ctrl+s) and set the shell to be bash.
-It can be found under %GIT_HOME%\bin.
-Now restart your shell and you'll being running bash.
