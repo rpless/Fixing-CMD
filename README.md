@@ -35,6 +35,7 @@ I have checked in my configs for references.
 Because its not a real computer until it can run Git.
 So here's a small bit of sadness, a Git install via Chocolatey can't find your home directory correctly. I'm working on it.
 So you have to install Git via the installer from [Git SCM](http://git-scm.com/).
+Make sure you select to Windows Explorer Integration and pick the simple context menu, but don't check any of the sub options.
 When you install it write over the windows command prompt. Its the last option in the list.
 Also choose checkout as-is and commit as-is.
 
