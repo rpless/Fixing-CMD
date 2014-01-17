@@ -37,11 +37,11 @@ Now we can install Git via our package manager:
 ```
 cinst Git.Install -notsilent
 ```
-So here's a small bit of sadness, the windows version of git won't respect your user's home if you don't add Windows Explorer Integration.
-So you have to use the actually installer. Fortunately, we can still install via chocolatey. 
+So here's a small bit of sadness. The windows version of git won't respect your user's home if you don't add Windows Explorer Integration.
+So you have to use the actual installer. Fortunately, we can still install via Chocolatey. 
 Once the Installer comes up you'll need to select several options.
 Make sure you select to Windows Explorer Integration and pick the simple context menu, but don't check any of the sub options.
-When you install it write over the windows command prompt. Its the last option in the list.
+Make sure to overwrite the windows command prompt (The last option in the list).
 Also choose checkout as-is and commit as-is.
 Now you have a real computer.
 
