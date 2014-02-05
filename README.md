@@ -26,6 +26,10 @@ Like, say, resize the window correctly or copy/paste.
 To fix this we'll install [ConsoleZ](https://github.com/cbucher/console). 
 ConsoleZ is console window enhancement that is a fork of Console2.
 It allows you to do the vast majority of things that you expect from a modern shell window.
+To install run the following on the command line:
+```
+cinst ConsoleZ
+```
 Now just to make things a little easier, let's pin ConsoleZ to the Taskbar.
 Go to %CHOCOLATEY_HOME%\lib\ConsoleZ.1.9.1.13351\tools and pin the Console.exe to the taskbar.
 From here, you can customize ConsoleZ to your liking. There a couple of janky things by default, so you may want to fix those.
