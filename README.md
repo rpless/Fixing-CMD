@@ -55,3 +55,6 @@ So Git for windows ships with Bash. Are you thinking what I'm thinking?
 Go into ConsoleZ's settings (ctrl+s) and set the shell to be bash.
 It can be found under %GIT_HOME%\bin.
 Now restart your shell and you'll being running bash.
+
+## Quick Start
+Now having read all of this you're probably thinking, 'Typical windows. This sucks.' Well have I got just the panacea for you. In this repo, you'll find a little piece of semi-auto magic called setup.bat. If you copy this file down and run it, most of the work will be down for you. I use phrases like 'semi-auto magic' and 'most of the work' because you still need to do a little leg work with the git installer. I'm working on it.
