@@ -14,7 +14,7 @@ We will use [Chocolatey NuGet](http://chocolatey.org/).
 Let's start by popping open the God forsaken piece of software known as cmd.exe.
 Run this code:
 ```
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
 Dope. Now we have a package manager.
 Chocolatey usually installs under the root of the C drive.
